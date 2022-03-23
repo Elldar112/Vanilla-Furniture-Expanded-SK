@@ -1,0 +1,88 @@
+<!-- <?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_SpecialBeds</defName>
+		<label>special beds</label>
+		<description>A simple bed for one pawn.</description>
+		<defNames>
+			<li>SleepingSpot</li>
+			<li>DoubleSleepingSpot</li>
+			<li>BagBed</li>
+			<li>GuestBed</li>
+			<li>prison_single_bed_RT</li>
+			<li>prison_single_bed_LB</li>
+            <li>Bed_StoneSlab</li>
+		</defNames>
+		<designationCategory>Furniture</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_ComfortableSeats</defName>
+		<label>comfortable seats</label>
+		<description>Chairs, sofas, couch for great relaxation.</description>
+		<defNames>
+			<li>Armchair</li>
+			<li>SlabChair</li>
+			<li>SimplePillow</li>
+			<li>RusticCouch</li>
+			<li>ClutterCouchA</li>
+			<li>MilleniumCouch</li>
+			<li>EggArmchair</li>
+			<li>PodChair</li>
+            <li>Seat_ModernChair</li>
+            <li>Seat_Cushion</li>
+		</defNames>
+		<designationCategory>Furniture</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_SpTables</defName>
+		<label>Specific tables</label>
+		<description>Specific tables.</description>
+		<defNames>
+			<li>TeaTable</li>
+			<li>JournalTable</li>
+			<li>HolographicCell</li>
+            <li>Table_Counter</li>
+		</defNames>
+		<designationCategory>Furniture</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_ClothLockers</defName>
+		<label>cloth lockers</label>
+		<description>A locker that can store a set clothing for easy outfit swapping.</description>
+		<defNames>
+			<li>ClutterLocker</li>
+			<li>EndTableSimple</li>
+			<li>EndTable</li>
+			<li>Dresser</li>
+            <li>Table_Wardrobe</li>
+		</defNames>
+		<designationCategory>Furniture</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Lamps</defName>
+		<label>electric lamps</label>
+		<description>Lamp that lights an area.</description>
+		<defNames>
+			<li>StandingLamp</li>
+			<li>ClutterLampYellow</li>
+			<li>ClutterFloorLampA</li>
+			<li>CeilingLamp</li>
+			<li>WallLamp</li>
+			<li>Lighting_WallLight</li>
+			<li>RopeLight</li>
+            <li>Light_Streetlamp</li>
+		</defNames>
+		<designationCategory>Accessories</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+
+</Defs> -->
