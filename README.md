@@ -6,4 +6,4 @@ Original Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143
 List of changes:
 `` - Material conversion for HSK
    - Slight balance changes for beds
-``
+
