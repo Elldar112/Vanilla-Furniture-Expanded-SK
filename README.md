@@ -1,4 +1,4 @@
-**Vanilla-Furniture-Expanded-SK** *23-03-2022*
+**Vanilla Furniture Expanded SK** *23-03-2022*
 
 Vanilla Furniture Expanded material conversion for Hardcore SK Project
 
