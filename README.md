@@ -8,6 +8,8 @@ Original Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143
 - Material conversion for HSK
 - Slight balance changes for beds
 - Added missing icon for Architect Icons
+- Moved all things into VFE tab
+- Added Deep Storage functionality to Weapon Rack, Wardrobe and Small Shelf
 ```
 
 ![image](https://user-images.githubusercontent.com/64644323/159772153-22778e22-a83a-46b5-bb7d-76a15c98afed.png)
