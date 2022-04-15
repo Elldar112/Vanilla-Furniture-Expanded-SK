@@ -75,7 +75,7 @@
         <compClass>CompGatherSpot</compClass>
       </li>
     </comps>
-    <designationCategory>Temperature</designationCategory>
+    <designationCategory>AOMorefurniture</designationCategory>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <recipes>
