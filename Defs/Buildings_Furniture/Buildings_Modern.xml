@@ -400,7 +400,7 @@
     <leaveResourcesWhenKilled>False</leaveResourcesWhenKilled>
     <staticSunShadowHeight>0.17</staticSunShadowHeight>
     <castEdgeShadows>True</castEdgeShadows>
-    <techLevel>Indusrial</techLevel>
+    <techLevel>Industrial</techLevel>
     <researchPrerequisites>
       <li>MF_ModernFurniture</li>
     </researchPrerequisites>
