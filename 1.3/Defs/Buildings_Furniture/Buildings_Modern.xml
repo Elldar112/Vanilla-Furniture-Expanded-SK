@@ -2,7 +2,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <ThingDef ParentName="ArtableBedBase">
+  <ThingDef ParentName="SK_BedBase">
     <defName>Bed_Ergonomic</defName>
     <label>ergonomic bed</label>
     <description>An ergonomically designed bed to help support the spine, distribute body weight and overall enchance sleep quality.</description>
@@ -24,6 +24,7 @@
           <li>Table_RoyalDresser</li>
           <li>Table_RoyalEndTable</li>
           <li>Table_Wardrobe</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
         </linkableFacilities>
       </li>
     </comps>
@@ -33,20 +34,20 @@
       <WorkToBuild>15000</WorkToBuild>
       <Mass>75</Mass>
       <Beauty>2</Beauty>
-      <BedRestEffectiveness>1.15</BedRestEffectiveness>
+      <BedRestEffectiveness>1.0</BedRestEffectiveness>
       <Comfort>1</Comfort>
       <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
       <SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
     </statBases>
     <size>(1,2)</size>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-    </stuffCategories>
-    <costStuffCount>60</costStuffCount>
-    <costList>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>HF</li>
+		</stuffCategories>
+		<costStuffCount>65</costStuffCount>
+		<costList>
+			<ComponentIndustrial>9</ComponentIndustrial>
+		</costList>
     <building>
       <bed_showSleeperBody>False</bed_showSleeperBody>
       <bed_healPerDay>5</bed_healPerDay>
@@ -57,7 +58,7 @@
     <leaveResourcesWhenKilled>False</leaveResourcesWhenKilled>
     <staticSunShadowHeight>0.17</staticSunShadowHeight>
     <castEdgeShadows>True</castEdgeShadows>
-    <techLevel>Spacer</techLevel>
+    <techLevel>Industrial</techLevel>
     <researchPrerequisites>
       <li>MF_ModernFurniture</li>
     </researchPrerequisites>
@@ -67,7 +68,7 @@
     <designationCategory>AOMorefurniture</designationCategory>
   </ThingDef>
 
-  <ThingDef ParentName="ArtableBedBase">
+  <ThingDef ParentName="SK_BedBase">
     <defName>Bed_DoubleErgonomic</defName>
     <label>ergonomic double bed</label>
     <description>An ergonomically designed double-wide bed to help support the spine, distribute body weight and overall enchance sleep quality. Fits two.</description>
@@ -89,6 +90,7 @@
           <li>Table_RoyalDresser</li>
           <li>Table_RoyalEndTable</li>
           <li>Table_Wardrobe</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
         </linkableFacilities>
       </li>
     </comps>
@@ -98,20 +100,20 @@
       <WorkToBuild>30000</WorkToBuild>
       <Mass>95</Mass>
       <Beauty>4</Beauty>
-      <BedRestEffectiveness>1.2</BedRestEffectiveness>
+      <BedRestEffectiveness>1.0</BedRestEffectiveness>
       <Comfort>1.05</Comfort>
       <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
       <SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
     </statBases>
     <size>(2,2)</size>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-    </stuffCategories>
-    <costStuffCount>110</costStuffCount>
-    <costList>
-      <ComponentIndustrial>6</ComponentIndustrial>
-    </costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>HF</li>
+		</stuffCategories>
+		<costStuffCount>130</costStuffCount>
+		<costList>
+			<ComponentIndustrial>18</ComponentIndustrial>
+		</costList>
     <building>
       <bed_showSleeperBody>False</bed_showSleeperBody>
       <bed_healPerDay>5</bed_healPerDay>
@@ -122,7 +124,7 @@
     <leaveResourcesWhenKilled>False</leaveResourcesWhenKilled>
     <staticSunShadowHeight>0.17</staticSunShadowHeight>
     <castEdgeShadows>True</castEdgeShadows>
-    <techLevel>Spacer</techLevel>
+    <techLevel>Industrial</techLevel>
     <researchPrerequisites>
       <li>MF_ModernFurniture</li>
     </researchPrerequisites>
@@ -131,7 +133,7 @@
     <designationCategory>AOMorefurniture</designationCategory>
   </ThingDef>
 
-  <ThingDef ParentName="ArtableFurnitureBase">
+  <ThingDef ParentName="SK_ArtableFurnitureBase">
     <defName>Table_Wardrobe</defName>
     <label>wardrobe</label>
     <description>A tall wardrobe for storing clothing and other items. Gives a small sleep effectiveness bonus to all nearby beds. Placing more than one wardrobe near the same bed has no effect.</description>
@@ -155,10 +157,12 @@
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
-      <li>Stony</li>
     </stuffCategories>
     <defaultPlacingRot>South</defaultPlacingRot>
     <costStuffCount>80</costStuffCount>
+	<costList>
+    <ComponentMedieval>5</ComponentMedieval>
+    </costList>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <Mass>25</Mass>
@@ -189,7 +193,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="FurnitureWithQualityBase">
+  <ThingDef ParentName="SK_FurnitureWithQualityBase">
     <defName>Seat_ModernChair</defName>
     <label>ergonomic chair</label>
     <description>A flexible ergonomic chair designed to fit the curves of the human body, improving comfort.</description>
@@ -240,7 +244,7 @@
     <designationCategory>AOMorefurniture</designationCategory>
   </ThingDef>
 
-  <ThingDef ParentName="LampBase">
+  <ThingDef ParentName="SK_LampBase">
     <defName>Light_ModernLamp</defName>
     <label>modern lamp</label>
     <description>A power saving lamp that more effectively converts electricity to light, useful for lighting rooms. Will short circuit in rain.</description>
@@ -250,9 +254,11 @@
       <drawSize>(1,1)</drawSize>
     </graphicData>
     <tickerType>Rare</tickerType>
-    <costList>
-      <Steel>40</Steel>
-    </costList>
+		<costList>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Glass>5</Glass>
+			<ElectronicComponents>1</ElectronicComponents>
+		</costList>
     <size>(1,1)</size>
     <comps>
       <li Class="CompProperties_Power">
@@ -270,8 +276,7 @@
       <Mass>3</Mass>
     </statBases>
     <researchPrerequisites>
-      <li>Electricity</li>
-      <li>MF_ModernFurniture</li>
+      <li>Light_C1</li>
     </researchPrerequisites>
   </ThingDef>
   <designationCategory>AOMorefurniture</designationCategory>
