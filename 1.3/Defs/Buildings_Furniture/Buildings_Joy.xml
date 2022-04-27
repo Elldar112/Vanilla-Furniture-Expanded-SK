@@ -49,7 +49,7 @@
       <li>Television</li>
     </tradeTags>
     <constructEffect>ConstructMetal</constructEffect>
-    <designationCategory>Joy</designationCategory>
+    <designationCategory>AOMorefurniture</designationCategory>
     <researchPrerequisites>
       <li>TubeTelevision</li>
     </researchPrerequisites>
@@ -116,7 +116,7 @@
       <li>Television</li>
     </tradeTags>
     <constructEffect>ConstructMetal</constructEffect>
-    <designationCategory>Joy</designationCategory>
+    <designationCategory>AOMorefurniture</designationCategory>
     <researchPrerequisites>
       <li>FlatscreenTelevision</li>
     </researchPrerequisites>
@@ -190,7 +190,7 @@
       <Electronics>1</Electronics>
     </costList>
     <pathCost>10</pathCost>
-    <designationCategory>Joy</designationCategory>
+    <designationCategory>AOMorefurniture</designationCategory>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -263,7 +263,7 @@
       <Electronics>2</Electronics>
     </costList>
     <pathCost>10</pathCost>
-    <designationCategory>Joy</designationCategory>
+    <designationCategory>AOMorefurniture</designationCategory>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -344,7 +344,7 @@
       <Microchips>1</Microchips>
     </costList>
     <pathCost>40</pathCost>
-    <designationCategory>Joy</designationCategory>
+    <designationCategory>AOMorefurniture</designationCategory>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -414,7 +414,7 @@
     </costList>
     <pathCost>100</pathCost>
     <passability>PassThroughOnly</passability>
-    <designationCategory>Joy</designationCategory>
+    <designationCategory>AOMorefurniture</designationCategory>
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>MF_ModernFurniture</li>
@@ -469,10 +469,10 @@
     </costList>
     <pathCost>70</pathCost>
     <passability>PassThroughOnly</passability>
-    <designationCategory>Joy</designationCategory>
+    <designationCategory>AOMorefurniture</designationCategory>
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
-      <li>SK_RecreationRoomII</li>
+      <li>Harpsichord</li>
     </researchPrerequisites>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
   </ThingDef>
@@ -531,9 +531,9 @@
     <placeWorkers>
       <li>PlaceWorker_WatchArea</li>
     </placeWorkers>
-    <designationCategory>Joy</designationCategory>
+    <designationCategory>AOMorefurniture</designationCategory>
     <researchPrerequisites>
-      <li>SK_RecreationRoomII</li>
+      <li>Harpsichord</li>
     </researchPrerequisites>
     <uiIconScale>0.5</uiIconScale>
     <uiIconOffset>(0, 0.1)</uiIconOffset>
@@ -584,7 +584,7 @@
     </costList>
     <pathCost>200</pathCost>
     <passability>PassThroughOnly</passability>
-    <designationCategory>Joy</designationCategory>
+    <designationCategory>AOMorefurniture</designationCategory>
     <uiIconScale>0.65</uiIconScale>
   </ThingDef>
 </Defs>
