@@ -16,7 +16,7 @@
 	</ResearchProjectDef>
 
 	  <ResearchProjectDef>
-		<defName>ComplexFurniture</defName>
+		<defName>MF_ComplexFurniture</defName>
 		<label>complex furniture</label>
 		<tab>VanillaExpanded</tab>
 		<description>Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiard tables, and poker tables, vents, sarcophagi, and more.</description>
@@ -42,7 +42,7 @@
   <researchViewX>1.00</researchViewX>
   <researchViewY>2.35</researchViewY>
 		<prerequisites>
-		  <li>ComplexFurniture</li>
+		  <li>MF_ComplexFurniture</li>
 		</prerequisites>
 	  </ResearchProjectDef>
 	 
@@ -56,7 +56,7 @@
   <researchViewX>2.00</researchViewX>
   <researchViewY>1.80</researchViewY>
 		<prerequisites>
-		  <li>ComplexFurniture</li>
+		  <li>MF_ComplexFurniture</li>
 		</prerequisites>
 	  </ResearchProjectDef>
 
