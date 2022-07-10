@@ -92,7 +92,7 @@
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>ComplexFurniture</li>
+			<li>MF_ComplexFurniture</li>
 		</researchPrerequisites>
 		<designationCategory>Misc</designationCategory>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -244,7 +244,7 @@
     <surfaceType>Item</surfaceType>
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
-      <li>ComplexFurniture</li>
+      <li>MF_ComplexFurniture</li>
     </researchPrerequisites>
 	<designationCategory>AOMorefurniture</designationCategory>
 	<comps>
@@ -304,7 +304,7 @@
     <surfaceType>Item</surfaceType>
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
-      <li>ComplexFurniture</li>
+      <li>MF_ComplexFurniture</li>
     </researchPrerequisites>
 	<designationCategory>AOMorefurniture</designationCategory>
 	<comps>
