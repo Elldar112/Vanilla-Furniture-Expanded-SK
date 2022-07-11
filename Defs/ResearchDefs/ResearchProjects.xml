@@ -73,36 +73,5 @@
   <researchViewX>2.00</researchViewX>
   <researchViewY>1.25</researchViewY>
 	</ResearchProjectDef>
-	
-	<ResearchProjectDef>
-		<defName>MF_TubeTelevision</defName>
-		<label>basic electronics</label>
-		<tab>VanillaExpanded</tab>
-		<description>Build basic electronic joy sources such as tube televisions, industrial radios, arcades and more.</description>
-		<baseCost>1000</baseCost>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>Electricity</li>
-		</prerequisites>
-  <researchViewX>3.00</researchViewX>
-  <researchViewY>5.65</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>MF_FlatscreenTelevision</defName>
-		<label>complex electronics</label>
-		<tab>VanillaExpanded</tab>
-		<description>Build complex electronic joy sources such as flatscreen televisions, longwave radios and more.</description>
-		<baseCost>2000</baseCost>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-		  <li>TubeTelevision</li>
-		  <li>MicroelectronicsBasics</li>
-		</prerequisites>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-  <researchViewX>4.00</researchViewX>
-  <researchViewY>5.65</researchViewY>
-	</ResearchProjectDef>
-
 
 </Defs>
