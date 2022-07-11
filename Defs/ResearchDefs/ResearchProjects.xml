@@ -75,7 +75,7 @@
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
-		<defName>TubeTelevision</defName>
+		<defName>MF_TubeTelevision</defName>
 		<label>basic electronics</label>
 		<tab>VanillaExpanded</tab>
 		<description>Build basic electronic joy sources such as tube televisions, industrial radios, arcades and more.</description>
@@ -89,7 +89,7 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>FlatscreenTelevision</defName>
+		<defName>MF_FlatscreenTelevision</defName>
 		<label>complex electronics</label>
 		<tab>VanillaExpanded</tab>
 		<description>Build complex electronic joy sources such as flatscreen televisions, longwave radios and more.</description>
