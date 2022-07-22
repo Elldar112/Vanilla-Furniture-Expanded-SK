@@ -68,7 +68,7 @@
     </statBases>
 	<placingDraggableDimensions>1</placingDraggableDimensions>
 	<rotatable>false</rotatable>
-	<researchPrerequisites><li>ComplexFurniture</li></researchPrerequisites>
+	<researchPrerequisites><li>MF_ComplexFurniture</li></researchPrerequisites>
     <size>(1,1)</size>
     <costStuffCount>15</costStuffCount>
 	<designationCategory>AOMorefurniture</designationCategory>

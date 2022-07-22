@@ -141,7 +141,7 @@
     </building>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <researchPrerequisites>
-      <li>ComplexFurniture</li>
+      <li>MF_ComplexFurniture</li>
     </researchPrerequisites>
 	<designationCategory>AOMorefurniture</designationCategory>
   </ThingDef>
