@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingFueled">
     <defName>Stone_Campfire</defName>
     <label>stone campfire</label>
     <description>Cooks meals but produces less heat but more light, burns out slower than the standard campfire. As with
       all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</description>
-    <thingClass>Building_WorkTable</thingClass>
+    <!--<thingClass>Building_WorkTable</thingClass>-->
     <category>Building</category>
     <graphicData>
       <texPath>Things/Other/StoneCampfire/StoneCampfire</texPath>
